@@ -39,7 +39,7 @@
     * В Windows 11 поддерживается включение Secure DNS прямо в настройках ОС - [инструкция тут](https://remontka.pro/dns-over-https-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
     * Если у вас роутер Keenetic, включите в настройках роутера опцию "Транзит запросов". Отключение этой опции может привести к проблемам при настройке и использовании Secure DNS на компьютере
 
-2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/zapret-discord-youtube/releases/latest)
+2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/IllusionistJam/discord/releases)
 
 3. Зайдите в свойства скачанного архива и поставьте галочку "Разблокировать". Если вы используете архиватор 7-Zip или PeaZip, этот шаг можно пропустить
 
@@ -115,7 +115,7 @@
 - `service.bat` -> `Remove Services`
 - `service.bat` -> `Run Diagnostics` (если есть ошибки - устраните их) -> в конце Y
 - Удалите папку с запретом
-- Скачайте последнюю версию [со страницы релизов](https://github.com/Flowseal/zapret-discord-youtube/releases) (`zapret-discord-youtube-...`)
+- Скачайте последнюю версию [со страницы релизов](https://github.com/IllusionistJam/discord/releases) (`discord`)
 - Нажмите пкм по архиву -> свойства. Если снизу справа есть галочка разблокировать, то нажмите на неё -> применить -> ОК
 - Распакуйте в новую папку в корне диска (без спец. символов и пробелов)
 - Далее пробуйте запускать различные `general` скрипты (стратегии). Проверьте доступность интернет ресурсов - если не работают, то закрывайте программу (в панели задач иконка замочка) и пробуйте другую стратегию
@@ -154,18 +154,18 @@ sc delete название_из_первого_шага
 - Убедитесь что вы настроили Secure DNS.
 - Отключите блокировщик рекламы, известно что YouTube начал с ними бороться.
 - Пробуйте все другие стратегии (если раньше работало, но перестало).
-- См. также [#251](https://github.com/Flowseal/zapret-discord-youtube/discussions/251)
+- См. также [#251](https://github.com/IllusionistJam/discord/releases)
 
 ### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=18 /> Discord
 
 - Желательно сначала узнать, на какой стратегии открывается сайт YouTube. Запустите эту стратегию.
 - Проверьте Discord в браузере: https://discord.com/app. В браузере работает? Если работает, то можете пользоваться в нём.
 - Если Discord и в браузере не работает, убедитесь что вы настроили Secure DNS, и после этого ещё раз пробуйте все стратегии. Бывает такое, что на одной стратегии YouTube работает, а Discord нет.
-- См. также [#252](https://github.com/Flowseal/zapret-discord-youtube/discussions/252)
+- См. также [#252](https://github.com/IllusionistJam/discord/releases)
 
 ### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968804.png" height=18 /> Telegram
 
-- Используйте программу [tg-ws-proxy](https://github.com/Flowseal/tg-ws-proxy)
+- Используйте программу [tg-ws-proxy](https://github.com/gpumeadowlarkstuff/telegram-ws-proxy )
 - Или используйте бесплатные MTProto прокси из интернета
 
 ### Не работают игры
@@ -193,20 +193,6 @@ sc delete название_из_первого_шага
 - **`ipset-exclude-user.txt`** для исключения IP и подсетей
   - Файлы **`*-user.txt`** автоматически создадутся при первом запуске `zapret` или `service.bat`
 
-## ⭐Поддержка проекта
-
-Вы можете поддержать проект, поставив :star: этому репозиторию (сверху справа этой страницы)
-
-Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0)
-
-<a href="https://star-history.com/#Flowseal/zapret-discord-youtube&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Flowseal/zapret-discord-youtube&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Flowseal/zapret-discord-youtube&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Flowseal/zapret-discord-youtube&type=Date" />
- </picture>
-</a>
-
 ## ⚖️Лицензирование
 
 Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/zapret-discord-youtube/blob/main/LICENSE.txt)
@@ -215,4 +201,4 @@ sc delete название_из_первого_шага
 
 [![Contributors](https://contrib.rocks/image?repo=Flowseal/zapret-discord-youtube)](https://github.com/Flowseal/zapret-discord-youtube/graphs/contributors)
 
-💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
+💖 Отдельная благодарность разработчику [zapret](https://github.com/IllusionistJam/discord)
